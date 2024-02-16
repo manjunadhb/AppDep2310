@@ -15,9 +15,7 @@ function Home() {
         Welcome {storeObj.loginReducer.userDetails.firstName}{" "}
         {storeObj.loginReducer.userDetails.lastName}
       </h1>
-      <img
-        src={`http://localhost:4567/${storeObj.loginReducer.userDetails.profilePic}`}
-      ></img>
+      <img src={`/${storeObj.loginReducer.userDetails.profilePic}`}></img>
     </div>
   );
 }
